@@ -1020,7 +1020,7 @@
          ! Units: [kg/m3]
          PM25(I,J,L) = NH4(I,J,L)        * SIA_GROWTH
      &               + NIT(I,J,L)        * SIA_GROWTH
-     &               + SO4(I,J,L)        * SIA_GROWTH
+     &               + SO4(I,J,L)        * SIA_GROWTH * 0.75
      &               + BCPI(I,J,L)
      &               + BCPO(I,J,L)
      &               + OCPO(I,J,L)
